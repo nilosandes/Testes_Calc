@@ -1,5 +1,5 @@
 public class Calculadora {
-    private String entrada;
+    private String entrada = "1+1";
     private int resultado;
 
     public Calculadora() {
@@ -9,9 +9,11 @@ public class Calculadora {
 
     }
 
+    //Calculadora c = new Calculadora();
     public void receberEntrada(String calcs) {
-        entrada = calcs;
-    }
+        if(isNotEmpty())
+            entrada = calcs;
+    }              //ok
 
     public int identificarOperacao(int value1, char op, int value2) {
         resultado = value1 + op + value2;
@@ -19,7 +21,53 @@ public class Calculadora {
     }
 
 
-    public void limparCampo(){
+//    public void limparCampo(){
+//
+//    }
 
+    public boolean isNotEmpty() {
+        return entrada != null;
+    }
+
+    public int converterParaInt(String entrada) {
+        this.entrada = entrada;
+        resultado = Integer.parseInt(entrada);
+        return resultado;
+    }
+
+//    public void clear() { c = null;
+//    }
+
+    public double somar(double n1, double n2) {
+        double resultadoSoma = n1 + n2;
+        return resultadoSoma;
+    }
+
+    public double subtrair(double n1, double n2) {
+        double resultadoSubtracao = n1 - n2;
+        return resultadoSubtracao;
+    }
+
+    public double mult(double n1, double n2) {
+        double resultadoMult = n1 * n2;
+        return resultadoMult;
+    }
+
+    public double div(double n1, double n2) {
+        double resultadoDiv = n1 / n2;
+        if (!divisaoPorZero(n2)) {
+            return resultadoDiv;
+        }else {
+            throw new ArithmeticException("Não é possível dividir por zero");
+        }
+    }
+
+    public boolean divisaoPorZero( double n){
+        return n == 0;
+    }
+
+    public double resto(double n1, double n2) {
+        double resultadoResto = n1 % n2;
+        return resultadoResto;
     }
 }
