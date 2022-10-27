@@ -1,5 +1,3 @@
-import jdk.jfr.Label;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -32,7 +30,7 @@ class CalculadoraTest {
     @Test
     void somarNumeros() {
        double soma =  c.somar(1,-15);
-        //System.out.println(soma);
+        System.out.println(soma);
         assertEquals(-14, soma);
     }
 
@@ -60,7 +58,7 @@ class CalculadoraTest {
     @Test
     void dividirNumerosPorZero() {
         boolean d = c.divisaoPorZero(0);
-        //System.out.println(div);
+        System.out.println(d);
         assertTrue(d);
     }
     @Test
@@ -68,8 +66,32 @@ class CalculadoraTest {
         double resultadoResto = c.resto(2, 2);
         assertEquals(0, resultadoResto);
     }
-
-//    @Test
-//    void limparCampo() {
-//    }
+    //Exponencial
+    @Test
+    void elevarNumeros(){
+        double elev = c.elevar(2, 3);
+        System.out.println(elev);
+        assertEquals(8, elev);
+    }
+    //Raiz
+    @Test
+    void raizQuadradaDeNumeros(){
+        double raiz =  c.raizQ(16);
+        System.out.println(raiz);
+        assertEquals(4, raiz);
+    }
+    @Test
+    void raizCubicaDeNumeros(){
+        double raizC =  c.raizC(64);
+        System.out.println(raizC);
+        assertEquals(4, raizC);
+    }
+    //Porcentagem
+    @Test
+    void CalcularPorcentagem(){
+        double valorPorc = c.porc(20);
+        double porc = c.porcDeUmNum(valorPorc);
+        System.out.println(porc + "%");
+        assertEquals(20d, porc);
+    }
 }

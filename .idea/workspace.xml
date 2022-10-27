@@ -52,71 +52,70 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculadoraTest.encontrarRestoDiv">
-    <configuration name="CalculadoraTest.dividirNumeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CalculadoraTest">
+    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes_Calc" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="METHOD_NAME" value="dividirNumeros" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.CalcularPorcentagem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testes_Calc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
+      <option name="METHOD_NAME" value="CalcularPorcentagem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.dividirNumerosPorZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraTest.elevarNumeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes_Calc" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="METHOD_NAME" value="dividirNumerosPorZero" />
+      <option name="METHOD_NAME" value="elevarNumeros" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.encontrarRestoDiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraTest.raizCubicaDeNumeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes_Calc" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="METHOD_NAME" value="encontrarRestoDiv" />
+      <option name="METHOD_NAME" value="raizCubicaDeNumeros" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.multiplicarNumeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraTest.raizQuadradaDeNumeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes_Calc" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="METHOD_NAME" value="multiplicarNumeros" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculadoraTest.subtrairNumeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testes_Calc" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="METHOD_NAME" value="subtrairNumeros" />
+      <option name="METHOD_NAME" value="raizQuadradaDeNumeros" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculadoraTest.dividirNumeros" />
-      <item itemvalue="JUnit.CalculadoraTest.dividirNumerosPorZero" />
-      <item itemvalue="JUnit.CalculadoraTest.encontrarRestoDiv" />
-      <item itemvalue="JUnit.CalculadoraTest.multiplicarNumeros" />
-      <item itemvalue="JUnit.CalculadoraTest.subtrairNumeros" />
+      <item itemvalue="JUnit.CalculadoraTest" />
+      <item itemvalue="JUnit.CalculadoraTest.CalcularPorcentagem" />
+      <item itemvalue="JUnit.CalculadoraTest.elevarNumeros" />
+      <item itemvalue="JUnit.CalculadoraTest.raizCubicaDeNumeros" />
+      <item itemvalue="JUnit.CalculadoraTest.raizQuadradaDeNumeros" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculadoraTest.encontrarRestoDiv" />
-        <item itemvalue="JUnit.CalculadoraTest.dividirNumerosPorZero" />
-        <item itemvalue="JUnit.CalculadoraTest.dividirNumeros" />
-        <item itemvalue="JUnit.CalculadoraTest.multiplicarNumeros" />
-        <item itemvalue="JUnit.CalculadoraTest.subtrairNumeros" />
+        <item itemvalue="JUnit.CalculadoraTest" />
+        <item itemvalue="JUnit.CalculadoraTest.CalcularPorcentagem" />
+        <item itemvalue="JUnit.CalculadoraTest.raizCubicaDeNumeros" />
+        <item itemvalue="JUnit.CalculadoraTest.raizQuadradaDeNumeros" />
+        <item itemvalue="JUnit.CalculadoraTest.elevarNumeros" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666716644169</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated with new tests and new Calculadora methods(sum, sub, div, mult, rest).">
+      <created>1666814893294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666814893294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

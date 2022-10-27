@@ -20,22 +20,14 @@ public class Calculadora {
         return resultado;
     }
 
-
-//    public void limparCampo(){
-//
-//    }
-
     public boolean isNotEmpty() {
         return entrada != null;
     }
 
-    public int converterParaInt(String entrada) {
-        this.entrada = entrada;
-        resultado = Integer.parseInt(entrada);
-        return resultado;
-    }
-
-//    public void clear() { c = null;
+//    public int converterParaInt(String entrada) {
+//        this.entrada = entrada;
+//        resultado = Integer.parseInt(entrada);
+//        return resultado;
 //    }
 
     public double somar(double n1, double n2) {
@@ -69,5 +61,29 @@ public class Calculadora {
     public double resto(double n1, double n2) {
         double resultadoResto = n1 % n2;
         return resultadoResto;
+    }
+
+    public double elevar(double n1, double n2) {
+        double resultadoElev = Math.pow(n1, n2);
+        return resultadoElev;
+    }
+
+    public double raizQ(double n) {
+        double resultadoRaizQ = Math.sqrt(n);
+        return resultadoRaizQ;
+    }
+
+    public double raizC(double n) {
+        double resultadoRaizC = Math.cbrt(n);
+        return resultadoRaizC;
+    }
+
+    public double porc(double n) {
+        double valorPorc = n / 100d;
+        return valorPorc;
+    }
+    public double porcDeUmNum(double n) {
+        double valorPorcdN = n * 100d;
+        return valorPorcdN;
     }
 }
