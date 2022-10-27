@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ce52c38-6068-4819-91bf-68881cba1b68" name="Changes" comment="Updated with new tests and new Calculadora methods(sum, sub, div, mult, rest).">
+    <list default="true" id="9ce52c38-6068-4819-91bf-68881cba1b68" name="Changes" comment="Updated with new tests and new Calculadora methods(exponential, sqrt, cbrt, porcent).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666814893294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated with new tests and new Calculadora methods(exponential, sqrt, cbrt, porcent).">
+      <created>1666835805630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666835805631</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +172,7 @@
     <MESSAGE value="Update and first method using TDD" />
     <MESSAGE value="Update and created first method using TDD" />
     <MESSAGE value="Updated with new tests and new Calculadora methods(sum, sub, div, mult, rest)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated with new tests and new Calculadora methods(sum, sub, div, mult, rest)." />
+    <MESSAGE value="Updated with new tests and new Calculadora methods(exponential, sqrt, cbrt, porcent)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated with new tests and new Calculadora methods(exponential, sqrt, cbrt, porcent)." />
   </component>
 </project>
